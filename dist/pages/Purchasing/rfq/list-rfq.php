@@ -34,13 +34,13 @@
                 <div class="page-title">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last mb-3">
-                            <h3>List Vendor</h3>
+                            <h3>List Request for Quotation</h3>
                         </div>
                         <div class="col-12 col-md-6 order-md-2 order-first">
                             <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="../../../../dist/pages/index.php">Dashboard</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">List Vendor</li>
+                                    <li class="breadcrumb-item active" aria-current="page">List Request for Quotation</li>
                                 </ol>
                             </nav>
                         </div>
@@ -51,7 +51,7 @@
                         <div class="card-header">
                             <div class="row">
                                 <div class="col d-flex justify-content-end">
-                                    <a type="button" class="btn btn-outline-primary btn-sm me-2" href='tambah-vendor.php'>
+                                    <a type="button" class="btn btn-outline-primary btn-sm me-2" href='tambah-rfq.php'>
                                         <i class="bi bi-plus-square bi-middle me-1"></i>
                                         Add
                                     </a>
@@ -69,18 +69,18 @@
                                         <th>Reference</th>
                                         <th>Vendor</th>
                                         <th>Phone</th>
-                                        <th>Email</th>
-                                        <th>Address</th>
+                                        <th>Total</th>
+                                        <th>Status</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>VN-0001</td>
+                                        <td>RFQ-0001</td>
                                         <td>PT. Seiko</td>
                                         <td>081234567890</td>
-                                        <td>seiko@gmail.com</td>
-                                        <td>Jl. Mangga</td>
+                                        <td>Rp. 1.000.000</td>
+                                        <td>Request for Quotation</td>
                                         <td>
                                             <a type="button" class="btn btn-outline-success btn-sm me-1" href='edit-vendor.php'>
                                                 <i class="bi bi-pencil-square bi-middle"></i>
