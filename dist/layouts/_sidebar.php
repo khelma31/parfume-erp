@@ -3,7 +3,7 @@
                 <div class="sidebar-header">
                     <div class="d-flex justify-content-between">
                         <div class="logo">
-                            <a href="../../../../erp-copy2/parfume-erp/dist/pages/index.php"><img src="../../../../erp-copy2/parfume-erp/dist/assets/images/logo/logo.png" alt="Logo" srcset=""></a>
+                            <a href="/../../erp-copy2/parfume-erp/dist/pages/index.php"><img src="../../../../erp-copy2/parfume-erp/dist/assets/images/logo/logo.png" alt="Logo" srcset=""></a>
                         </div>
                         <div class="toggler">
                             <a href="../../../../erp-copy2/parfume-erp/dist/pages/index.php" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
@@ -15,7 +15,7 @@
                         <li class="sidebar-title">Menu</li>
 
                         <li class="sidebar-item active ">
-                            <a href="../../../../erp-copy2/parfume-erp/dist/pages/index.php" class='sidebar-link'>
+                            <a href="/../../erp-copy2/parfume-erp/dist/pages/index.php" class='sidebar-link'>
                                 <i class="bi bi-grid-fill"></i>
                                 <span>Dashboard</span>
                             </a>
@@ -28,16 +28,16 @@
                             </a>
                             <ul class="submenu ">
                                 <li class="submenu-item ">
-                                    <a href="../../dist/pages/list-bahan.php">Material</a>
+                                    <a href="/../../erp-copy2/parfume-erp/dist/pages/manufacturing/bahan/list-bahan.php">Material</a>
                                 </li>
                                 <li class="submenu-item ">
-                                    <a href="../../dist/pages/list-produk.php">Product</a>
+                                    <a href="/../../erp-copy2/parfume-erp/dist/pages/manufacturing/produk/list-produk.php">Product</a>
                                 </li>
                                 <li class="submenu-item ">
-                                    <a href="../../dist/pages/list-bom.php">Bill of Material</a>
+                                    <a href="/../../erp-copy2/parfume-erp/dist/pages/manufacturing/bom/list-bom.php">Bill of Material</a>
                                 </li>
                                 <li class="submenu-item ">
-                                    <a href="/../../../../erp-copy2/parfume-erp/dist/pages/Manufacturing/MO/tambah-mo.php">Manufacturing Order</a>
+                                    <a href="/../../../../erp-copy2/parfume-erp/dist/pages/manufacturing/mo/list-mo.php">Manufacturing Order</a>
                                 </li>
                             </ul>
                         </li>
@@ -49,10 +49,10 @@
                             </a>
                             <ul class="submenu ">
                                 <li class="submenu-item ">
-                                    <a href="/../../../../erp-copy2/parfume-erp/dist/pages/Purchasing/vendor/list-vendor.php">Vendor</a>
+                                    <a href="/../../../../erp-copy2/parfume-erp/dist/pages/purchasing/vendor/list-vendor.php">Vendor</a>
                                 </li>
                                 <li class="submenu-item ">
-                                    <a href="/../../../../erp-copy2/parfume-erp/dist/pages/Purchasing/rfq/list-rfq.php">Request for Quotation</a>
+                                    <a href="/../../../../erp-copy2/parfume-erp/dist/pages/purchasing/rfq/list-rfq.php">Request for Quotation</a>
                                 </li>
                             </ul>
                         </li>

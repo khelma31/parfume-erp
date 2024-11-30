@@ -82,6 +82,9 @@
                                         <td>Rp. 1.000.000</td>
                                         <td>Request for Quotation</td>
                                         <td>
+                                            <a type="button" class="btn btn-outline-dark btn-sm me-1" href='po.php'>
+                                                <i class="bi bi-zoom-in bi-middle"></i>
+                                            </a>
                                             <a type="button" class="btn btn-outline-success btn-sm me-1" href='edit-vendor.php'>
                                                 <i class="bi bi-pencil-square bi-middle"></i>
                                             </a>

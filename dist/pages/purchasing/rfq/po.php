@@ -39,14 +39,13 @@
                 <div class="page-title">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last mb-3">
-                            <h3>Add Request for Quotation</h3>
+                            <h3>Purchase Order</h3>
                         </div>
                         <div class="col-12 col-md-6 order-md-2 order-first">
                             <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="../../dist/pages/index.php">Dashboard</a></li>
-                                    <li class="breadcrumb-item"><a href="../../dist/pages/list-rfq.php">List Request for Quotation</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Add Request for Quotation</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Purchase Order</li>
                                 </ol>
                             </nav>
                         </div>
@@ -61,8 +60,8 @@
                                         <div class="row">
                                             <div class="col d-flex" style="padding: 30px;">
                                                 <div class="btn-group mb-3" role="group" aria-label="Basic example">
-                                                    <button type="button" class="btn btn-primary">Request for Quotation</button>
-                                                    <button type="button" class="btn disabled btn-primary">Purchase Order</button>
+                                                    <button type="button" class="btn disabled btn-primary">Request for Quotation</button>
+                                                    <button type="button" class="btn btn-primary no-click">Purchase Order</button>
                                                 </div>
                                             </div>
                                             <div class="col d-flex justify-content-end" style="padding: 30px;">
@@ -77,6 +76,51 @@
                                                         <i class="bi bi-file-earmark bi-middle me-1"></i>
                                                         Export as PDF
                                                     </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col d-flex" style="padding-left: 30px;">
+                                                <div class="buttons">
+                                                    <a type="button" class="btn btn-outline-primary btn-md"
+                                                    data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                                        Validate
+                                                    </a>
+                                                </div>
+                                                <!-- Vertically Centered modal Modal -->
+                                                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered modal-dialog-centered modal-dialog-scrollable"
+                                                        role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="exampleModalCenterTitle">Vertically
+                                                                    Centered
+                                                                </h5>
+                                                                <button type="button" class="close" data-bs-dismiss="modal"
+                                                                    aria-label="Close">
+                                                                    <i data-feather="x"></i>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>
+                                                                    Do you wish to proceed with accepting this order?
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-light-secondary"
+                                                                    data-bs-dismiss="modal">
+                                                                    <i class="bx bx-x d-block d-sm-none"></i>
+                                                                    <span class="d-none d-sm-block">Close</span>
+                                                                </button>
+                                                                <button type="button" class="btn btn-primary ml-1"
+                                                                    data-bs-dismiss="modal">
+                                                                    <i class="bx bx-check d-block d-sm-none"></i>
+                                                                    <span class="d-none d-sm-block">Accept</span>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -200,7 +244,7 @@
 
                                             <div class="col-12 d-flex justify-content-end mt-5">
                                                 <button type="submit"
-                                                    class="btn btn-primary me-2 mb-1">Save</button>
+                                                    class="btn btn-primary me-2 mb-1">Confirm Order</button>
                                                 <a type="reset"
                                                     class="btn btn-light-secondary mb-1" href="list-rfq.php">Cancel</a>
                                             </div>
